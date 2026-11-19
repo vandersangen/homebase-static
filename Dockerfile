@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.31.9-alpine
 LABEL authors="lltm"
 
 WORKDIR /app
